@@ -179,6 +179,53 @@ ul.margin-top-bottom-10 li {
     margin: 10px 10px;
 }
 
+form table, form tbody {
+    width: 100%;
+    height: 100%;
+}
+
 form table td.label {
     text-align: right;
+    width: 20%;
+    top: 0px;
+    left: 0px;
+    padding-right: 10px;
+}
+
+form table td.content {
+    width: 80%;
+    padding: 5px;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+}
+
+form table td.submit {
+    width: 100%;
+}
+
+form table input {
+    width: 100%;
+    padding: 0px;
+    border: 2px 0px;
+    margin: 0px;
+    font-family: 'Nanum Gothic', '맑은 고딕', '굴림';
+    font-size: 14pt;
+}
+
+form table textarea {
+    width: 100%;
+    padding: 0px;
+    border: 2px 0px;
+    margin: 0px;
+    resize: none;
+    font-family: 'Nanum Gothic', '맑은 고딕', '굴림';
+    font-size: 14pt;
+}
+
+form table .submit-button {
+    color: #ffffff;
+    background-color: #222222;
+    padding: 5px;
+    border: 0px;
 }
